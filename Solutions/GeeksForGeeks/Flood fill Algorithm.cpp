@@ -25,18 +25,7 @@ class Solution {
     vector<vector<int>> floodFill(vector<vector<int>>& image, int sr, int sc,
                                   int newColor) {
         // code here
-        vector <vector<int>>visited(
-                image.size(),
-                vector<int> (image[0].size(),0)
-        );
-        
-        for(int i=0; i <image.size(); i++)
-        {
-            for(int j=0; j<image[0].size();j++)
-               visited[i][j] = image[i][j];
-        }
-        
-        
+        vector <vector<int>>visited = image;
         dfs(image , visited, sr, sc, newColor, image[sr][sc]);
         
         return visited;
