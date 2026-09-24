@@ -1,0 +1,14 @@
+// Platform: Unknown
+
+// Problem: Fine-grained Personal Access Tokens
+
+// URL: https://github.com/settings/personal-access-tokens
+
+// Description:
+
+adfadf
+
+
+// Solution:
+
+afadsfaf
